@@ -34,7 +34,7 @@ body {
 }
 
 #hero-header {
-  font-family: grifter;
+  font-family: grifter, sans-serif;
 }
 
 #download-btn {
