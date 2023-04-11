@@ -20,8 +20,8 @@ const Hero = () => {
         </p>
       </div>
       <div className="flex items-center mt-[40px] justify-center">
-        <div className="flex flex-col md:flex-row w-full md:w-auto px-5 gap-x-28 gap-y-3 justify-between rounded-[32px] md:px-2 py-1 md:bg-white">
-          <div className="flex bg-white md:bg-none md:rounded-none rounded-[32px] px-2 md:px-0 md:py-0 py-2 md:bg-none gap-x-[16px]">
+        <div className="flex flex-col md:flex-row w-full md:w-auto px-5 gap-x-28 gap-y-3 justify-between md:border md:border-bgrey md:border-solid  rounded-[32px] md:px-2 py-1 md:bg-white">
+          <div className="flex bg-white md:border-none border-bgrey border-solid border  md:bg-none md:rounded-none rounded-[32px] px-2 md:px-0 md:py-0 py-2 md:bg-none gap-x-[16px]">
             <span className="flex">
               <img src={naija} alt="nigerian-flag" />
               <select
