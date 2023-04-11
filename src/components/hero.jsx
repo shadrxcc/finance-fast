@@ -8,12 +8,12 @@ const Hero = () => {
       <div className="text-center flex flex-col gap-y-[1.5em]">
         <h1
           id="hero-header"
-          className="font-bold max-w-[928px] m-auto text-[2.2em] lg:text-5xl leading-[38px] md:leading-[54px]"
+          className="font-bold max-w-[928px] px-[1.7em] md:px-0 m-auto text-[1.7em] lg:text-5xl leading-[38px] md:leading-[54px]"
         >
           Simplify Your International
           <br /> Transactions with <span id="abstract">One Platform</span>{" "}
         </h1>
-        <p className="text-lg px-2.5 md:px-0 md:text-lg max-w-[640px] m-auto leading-6">
+        <p className="text-lg px-4 md:px-0 md:text-lg max-w-[640px] m-auto leading-6">
           Say Goodbye to the Hassles of Traditional Money Transfers. FinanceFast
           allows you effortlessly transfer money anywhere in the world with
           confidence and ease.
