@@ -47,7 +47,6 @@ body {
 .slider {
   overflow: hidden;
   position: relative;
-  /* width: auto; */
 }
 
 .slider-track {
