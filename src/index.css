@@ -23,7 +23,7 @@ body {
 
 #navbar.active {
   top: 5em;
-  background: antiquewhite;
+  background: #f9f9f9;
   /* color: linear-gradient(180deg, #6364FF 64.58%, #563ACC 100%); */
 }
 
