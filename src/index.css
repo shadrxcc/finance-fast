@@ -1,0 +1,68 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: "Satoshi-Variable";
+  src: url(/src/assets/fonts/Satoshi-Variable.ttf);
+  font-weight: 300 900;
+  font-display: swap;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "grifter";
+  src: url(/src/assets/fonts/grifterbold.otf);
+}
+
+body {
+  font-family: Satoshi-Variable;
+  overflow-x: hidden;
+  background: #f9f9f9;
+}
+
+#navbar.active {
+  top: 5em;
+  background: antiquewhite;
+  /* color: linear-gradient(180deg, #6364FF 64.58%, #563ACC 100%); */
+}
+
+#abstract {
+  background: linear-gradient(180deg, #6364ff 64.58%, #563acc 100%);
+  background-clip: text;
+  color: transparent;
+}
+
+#hero-header {
+  font-family: grifter;
+}
+
+#download-btn {
+  background: rgba(86, 58, 204, 1);
+  border-radius: 24px;
+  padding: 12px 24px;
+  color: white;
+}
+
+.slider {
+  overflow: hidden;
+  position: relative;
+  /* width: auto; */
+}
+
+.slider-track {
+  animation: scroll 7s linear infinite;
+  display: flex;
+  align-items: center;
+  width: 100%;
+}
+
+@keyframes scroll {
+  0% {
+    transform: translateX(100%);
+  }
+
+  100% {
+    transform: translateX(-100%);
+  }
+}
