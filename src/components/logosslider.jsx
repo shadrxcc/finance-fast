@@ -3,10 +3,10 @@ import { logolist } from "./data";
 
 const Logosslider = () => {
   return (
-    <div className="bg-[#E5DBFB] h-[220px] justify-around flex flex-col lg:flex-row items-center">
+    <div className="bg-[#E5DBFB] h-[140px] justify-around flex flex-col lg:flex-row items-center">
       <div>
         <p className="font-medium max-w-[339px] text-danger-300 text-center leading-6 text-lg text-[#3A3A3A]">
-          We're have been recognized by Leading Finance Publications and
+          We're have been recognized by Leading <br/> Finance Publications and
           Organizations.
         </p>
       </div>

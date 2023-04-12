@@ -1,3 +1,4 @@
+import Features from "./components/features"
 import Header from "./components/header"
 import Hero from "./components/hero"
 import Logosslider from "./components/logosslider"
@@ -8,6 +9,7 @@ function App() {
     <Header/>
     <Hero/>
     <Logosslider/>
+    <Features/>
     </>
   )
 }

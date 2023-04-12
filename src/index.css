@@ -65,3 +65,18 @@ body {
     transform: translateX(-100%);
   }
 }
+
+#real-time {
+font-weight: 700;
+font-size: 14px;
+line-height: 19px;
+text-align: center;
+background: linear-gradient(180deg, #6364FF 64.58%, #563ACC 100%);
+background-clip: text;
+color: transparent;
+}
+
+.convert, 
+.global-header {
+  font-family: grifter;
+}

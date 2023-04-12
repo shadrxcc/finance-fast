@@ -5,6 +5,8 @@ export default {
     extend: {
       colors: {
         bgrey: "hsla(0, 0%, 58%, 0.5);",
+        trpborder: "rgba(148, 148, 148, 0.5);",
+        cardbg: "rgba(234, 231, 255, 0.7)",
       },
     },
   },
