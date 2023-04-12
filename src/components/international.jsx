@@ -18,7 +18,7 @@ const International = () => {
 the FastFinance app from your iOS of Android store.
         </p>
       </div>
-      <div className="flex flex-col p-[1em] md:flex-row items-center justify-evenly">
+      <div className="flex flex-col p-[1em] gap-[5em] md:flex-row items-center justify-evenly">
         <div className="flex flex-col gap-y-[28px]">
           <div className="flex flex-col gap-y-[28px]">
             {solution1.map((items, id) => {
