@@ -3,6 +3,7 @@ import Features from "./components/features"
 import Header from "./components/header"
 import Hero from "./components/hero"
 import Logosslider from "./components/logosslider"
+import Testimonials from "./components/testimonials"
 
 function App() {
   return (
@@ -12,6 +13,7 @@ function App() {
     <Logosslider/>
     <Features/>
     <Breezepayments/>
+    <Testimonials/>
     </>
   )
 }

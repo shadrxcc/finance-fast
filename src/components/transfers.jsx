@@ -6,7 +6,7 @@ const Transfers = () => {
     return (
         <div className="flex flex-col gap-y-[88px]">
         <div className="flex flex-col text-center gap-y-[16px] items-center">
-          <span id="real-time">Easily Receive & Request</span>
+          <span id="real-time">EASILY RECEIVE & REQUEST</span>
           <p className="convert font-bold text-[30px] md:text-[40px] w-[10em] md:w-[622px] text-[#1A1A1A] leading-[35px] md:leading-[48px]">
           Experience Seamless Money Transfers
           </p>

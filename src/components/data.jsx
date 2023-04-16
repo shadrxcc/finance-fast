@@ -10,6 +10,7 @@ import won from "../assets/won.svg";
 import turkis from "../assets/turkish.svg";
 import rand from "../assets/rand.svg";
 import check from "../assets/check.svg";
+import pic from '../assets/pfp.svg'
 
 export const demographic = [
   {
@@ -171,3 +172,36 @@ export const pros = [
     pro: "Fast transfers",
   },
 ];
+
+export const reviews = [
+  {
+    review: `“I've been using FinanceFast for a few months now and it's completely transformed the way I send money to my family abroad. The platform is so easy to use and transfers are always fast and secure.`,
+    pfp: pic,
+    name: 'Carl Rowan',
+    title: 'Aglets Inc',
+  },
+  {
+    review: `“I've been using FinanceFast for a few months now and it's completely transformed the way I send money to my family abroad. The platform is so easy to use and transfers are always fast and secure.`,
+    pfp: pic,
+    name: 'Carl Rowan',
+    title: 'Aglets Inc',
+  },
+  {
+    review: `“I've been using FinanceFast for a few months now and it's completely transformed the way I send money to my family abroad. The platform is so easy to use and transfers are always fast and secure.`,
+    pfp: pic,
+    name: 'Carl Rowan',
+    title: 'Aglets Inc',
+  },
+  {
+    review: `“I've been using FinanceFast for a few months now and it's completely transformed the way I send money to my family abroad. The platform is so easy to use and transfers are always fast and secure.`,
+    pfp: pic,
+    name: 'Carl Rowan',
+    title: 'Aglets Inc',
+  },
+  {
+    review: `“I've been using FinanceFast for a few months now and it's completely transformed the way I send money to my family abroad. The platform is so easy to use and transfers are always fast and secure.`,
+    pfp: pic,
+    name: 'Carl Rowan',
+    title: 'Aglets Inc',
+  },
+]
