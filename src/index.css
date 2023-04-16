@@ -89,6 +89,13 @@ color: transparent;
     background-repeat: no-repeat;
 }
 
+.linebg2 {
+  background-image: url(/src/assets/lines.svg);
+  background-position: 100% 50%;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
 /* .swiper.swiper-initialized.swiper-horizontal.swiper-ios.swiper-backface-hidden.mySwiper {
   padding: 3em;
 } */

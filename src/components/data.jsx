@@ -205,3 +205,22 @@ export const reviews = [
     title: 'Aglets Inc',
   },
 ]
+
+export const faqs = [
+  {
+    question: 'How does FinanceFast work?',
+    answer: `FinanceFast is a platform that allows you to transfer money to anywhere in the world with confidence and ease. Simply create an account, add your recipient's information, and make a transfer. Our platform handles the rest.`
+  },
+  {
+    question: 'Is it safe to use FinanceFast?',
+    answer: `FinanceFast is a platform that allows you to transfer money to anywhere in the world with confidence and ease. Simply create an account, add your recipient's information, and make a transfer. Our platform handles the rest.`
+  },
+  {
+    question: 'Can I track my transfer?',
+    answer: `FinanceFast is a platform that allows you to transfer money to anywhere in the world with confidence and ease. Simply create an account, add your recipient's information, and make a transfer. Our platform handles the rest.`
+  },
+  {
+    question: 'Are there any hidden fees with FinanceFast?',
+    answer: `FinanceFast is a platform that allows you to transfer money to anywhere in the world with confidence and ease. Simply create an account, add your recipient's information, and make a transfer. Our platform handles the rest.`
+  },
+]

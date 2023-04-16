@@ -1,4 +1,6 @@
 import React from "react";
+import { faqs } from "./data";
+import AccordionDropDown from "./accordion";
 
 const Faq = () => {
   return (
@@ -15,8 +17,7 @@ const Faq = () => {
         </div>
 
         <div>
-            
-
+            <AccordionDropDown/>
         </div>
       </div>
     </div>
