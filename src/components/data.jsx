@@ -11,6 +11,10 @@ import turkis from "../assets/turkish.svg";
 import rand from "../assets/rand.svg";
 import check from "../assets/check.svg";
 import pic from '../assets/pfp.svg'
+import ig from '../assets/IG.svg'
+import twitter from '../assets/TWITTER.svg'
+import tiktok from '../assets/TIKTOK.svg'
+import yt from '../assets/YT.svg'
 
 export const demographic = [
   {
@@ -223,4 +227,55 @@ export const faqs = [
     question: 'Are there any hidden fees with FinanceFast?',
     answer: `FinanceFast is a platform that allows you to transfer money to anywhere in the world with confidence and ease. Simply create an account, add your recipient's information, and make a transfer. Our platform handles the rest.`
   },
+]
+
+export const footerlinks = [
+  {
+    link: 'About',  
+  },
+  {
+    link: 'Contact',  
+  },
+  {
+    link: 'Blog',  
+  },
+]
+
+export const footerlinks2 = [
+  {
+    link: 'Money conversion',  
+  },
+  {
+    link: 'International transactions',  
+  },
+  {
+    link: 'International transactions',  
+  },
+]
+
+export const footerlinks3 = [
+  {
+    link: 'Terms & conditions',  
+  },
+  {
+    link: 'Privacy policy',  
+  },
+]
+
+export const socials = [
+  {
+    icon: ig,
+  },
+
+  {
+    icon: twitter 
+  },
+
+  {
+    icon: tiktok,
+  },
+
+  {
+    icon: yt,
+  }
 ]

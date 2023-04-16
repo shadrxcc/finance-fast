@@ -23,8 +23,7 @@ body {
 
 #navbar.active {
   top: 5em;
-  background: #f9f9f9;
-  /* color: linear-gradient(180deg, #6364FF 64.58%, #563ACC 100%); */
+  background: rgb(234 231 255);
 }
 
 #abstract {
@@ -67,16 +66,16 @@ body {
 }
 
 #real-time {
-font-weight: 700;
-font-size: 14px;
-line-height: 19px;
-text-align: center;
-background: linear-gradient(180deg, #6364FF 64.58%, #563ACC 100%);
-background-clip: text;
-color: transparent;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 19px;
+  text-align: center;
+  background: linear-gradient(180deg, #6364ff 64.58%, #563acc 100%);
+  background-clip: text;
+  color: transparent;
 }
 
-.convert, 
+.convert,
 .global-header,
 .grift {
   font-family: grifter;
@@ -85,17 +84,19 @@ color: transparent;
 .linebg {
   background-image: url(/src/assets/line.svg);
   background-position: 100% 50%;
-    background-size: contain;
-    background-repeat: no-repeat;
+  background-size: contain;
+  background-repeat: no-repeat;
 }
 
 .linebg2 {
   background-image: url(/src/assets/lines.svg);
   background-position: 100% 50%;
-    background-size: contain;
-    background-repeat: no-repeat;
+  background-size: contain;
+  background-repeat: no-repeat;
 }
 
-/* .swiper.swiper-initialized.swiper-horizontal.swiper-ios.swiper-backface-hidden.mySwiper {
-  padding: 3em;
-} */
+@media screen and (min-width: 1024px) and (max-width: 1279px) {
+  .chat {
+    display: none;
+  }
+}

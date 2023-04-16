@@ -18,7 +18,7 @@ const Getapp = () => {
           </span>
         </div>
         <div className="flex flex-col items-center md:items-end md:flex-row">
-          <img src={chat} alt="" />
+          <img src={chat} className="chat" alt="" />
           <img src={mockup} className="w-[18em]" alt="cta" />
         </div>
       </div>
