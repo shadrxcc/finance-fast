@@ -8,7 +8,8 @@ export default {
         trpborder: "rgba(148, 148, 148, 0.5);",
         cardbg: "rgba(234, 231, 255, 0.7)",
         pinkbg: "rgba(241, 221, 255, 0.7)",
-        reviewbg: "rgba(229, 219, 251, 0.7);"
+        reviewbg: "rgba(229, 219, 251, 0.7);",
+        bordertop: "rgba(148, 148, 148, 0.5);"
       },
     },
   },

@@ -4,9 +4,10 @@ import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
 import "swiper/css/pagination";
 import "swiper/css/navigation";
-import { Pagination, Navigation } from "swiper";
+import { Pagination, Autoplay } from "swiper";
 
 const Testimonials = () => {
+  
   return (
     <div className="pt-[124px]">
       <div className="flex flex-col gap-y-[72px]">
@@ -18,15 +19,19 @@ const Testimonials = () => {
         </div>
         <div className="px-5 lg:px-[14em]">
           <Swiper
+          autoplay={{
+            delay: 2500,
+            disableOnInteraction: false,
+          }}
             slidesPerView={1}
             spaceBetween={50}
             pagination={{
               clickable: true,
             }}
             loop={false}
-            autoplay={true}
-            modules={[Pagination]}
+            modules={[Pagination, Autoplay]}
             className="mySwiper"
+           
           >
             {reviews.map((comment, id) => {
               return (
@@ -36,7 +41,7 @@ const Testimonials = () => {
                       <p className="text-[1.23rem] md:text-2xl leading-[35px] text-center lg:w-[642px] font-medium text-[#3A3A3A]">
                         {comment.review}
                       </p>
-                      <span className="flex items-center gap-x-[12px]">
+                      <span className="flex w-[100%] border-t-[1px] justify-center pt-2 border-solid border-bordertop items-center gap-x-[12px]">
                         <img src={comment.pfp} alt="" />
                         <div>
                           <p className="grift text-xl leading-[21px] font-bold text-[#1A1A1A]">
