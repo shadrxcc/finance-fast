@@ -81,3 +81,10 @@ color: transparent;
 .grift {
   font-family: grifter;
 }
+
+.linebg {
+  background-image: url(/src/assets/line.svg);
+  background-position: 100% 50%;
+    background-size: contain;
+    background-repeat: no-repeat;
+}

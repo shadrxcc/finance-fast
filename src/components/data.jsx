@@ -4,43 +4,44 @@ import tc from "../assets/tc.svg";
 import havard from "../assets/havard.svg";
 import yc from "../assets/y-combinator.svg";
 import x from "../assets/x-mark.svg";
-import dollars from '../assets/doll$.svg'
-import yuan from '../assets/yuan.svg'
-import won from '../assets/won.svg'
-import turkis from '../assets/turkish.svg'
-import rand from '../assets/rand.svg'
+import dollars from "../assets/doll$.svg";
+import yuan from "../assets/yuan.svg";
+import won from "../assets/won.svg";
+import turkis from "../assets/turkish.svg";
+import rand from "../assets/rand.svg";
+import check from "../assets/check.svg";
 
 export const demographic = [
   {
     currency: turkis,
-    country: 'Turkish Lira',
-    fee: '₦340 to ₺1 + ₦2,500 hidden conversion fee '
+    country: "Turkish Lira",
+    fee: "₦340 to ₺1 + ₦2,500 hidden conversion fee ",
   },
 
   {
     currency: rand,
-    country: 'South Africa Rand',
-    fee: '₦470 to R1 + ₦3,100 hidden conversion fee  '
+    country: "South Africa Rand",
+    fee: "₦470 to R1 + ₦3,100 hidden conversion fee  ",
   },
 
   {
     currency: dollars,
-    country: 'United States',
-    fee: '₦770 to $1 + ₦3,000 hidden conversion fee  '
+    country: "United States",
+    fee: "₦770 to $1 + ₦3,000 hidden conversion fee  ",
   },
 
   {
     currency: won,
-    country: 'South Korea Won',
-    fee: '₦470 to ₩1 + ₦5,000 hidden conversion fee '
+    country: "South Korea Won",
+    fee: "₦470 to ₩1 + ₦5,000 hidden conversion fee ",
   },
 
   {
     currency: yuan,
-    country: 'China Yuan',
-    fee: '₦470 to  ¥1 + ₦3,200 hidden conversion fee'
+    country: "China Yuan",
+    fee: "₦470 to  ¥1 + ₦3,200 hidden conversion fee",
   },
-]
+];
 
 export const navlinks = [
   {
@@ -153,5 +154,20 @@ export const solution4 = [
   {
     icon: x,
     item: "Currency exchange rates",
+  },
+];
+
+export const pros = [
+  {
+    icon: check,
+    pro: "No hidden fees",
+  },
+  {
+    icon: check,
+    pro: "Secure transactions",
+  },
+  {
+    icon: check,
+    pro: "Fast transfers",
   },
 ];

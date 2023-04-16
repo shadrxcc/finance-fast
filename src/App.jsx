@@ -1,3 +1,4 @@
+import Breezepayments from "./components/breezepayments"
 import Features from "./components/features"
 import Header from "./components/header"
 import Hero from "./components/hero"
@@ -10,6 +11,7 @@ function App() {
     <Hero/>
     <Logosslider/>
     <Features/>
+    <Breezepayments/>
     </>
   )
 }
