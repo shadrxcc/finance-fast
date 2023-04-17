@@ -13,7 +13,7 @@ const Testimonials = () => {
       <div className="flex flex-col gap-y-[72px]">
         <div className="text-center flex flex-col gap-y-[16px]">
           <p id="real-time">TESTIMONIALS</p>
-          <p className="grift text-[#1A1A1A] text-[40px] leading-[48px] font-bold">
+          <p className="grift text-[#1A1A1A] text-[30px] md:text-[40px] leading-[48px] font-bold">
             What Our Customers are Saying
           </p>
         </div>

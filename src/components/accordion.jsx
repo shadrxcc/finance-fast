@@ -17,7 +17,7 @@ const AccordionDropDown = () => {
           {faqs.map((questions, id) => {
             return (
               <>
-                <AccordionItem key={id} className="flex md:w-[719px] gap-y-[16px] flex-col">
+                <AccordionItem key={id} className="flex md:w-[719px] border-bordertop border-b-[1px] pb-[32px] gap-y-[16px] flex-col">
                   <h2>
    
                     <AccordionButton>

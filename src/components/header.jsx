@@ -12,7 +12,7 @@ const Header = () => {
     setClicked(!clicked);
   };
   return (
-    <div className="flex bg-[#F9F9F9] items-center p-5 justify-between">
+    <div className="flex bg-[#F9F9F9] fixed w-[100%] z-10 top-0 items-center p-5 justify-between">
       <div>
         <img src={logo} className="w-[10em]" alt="logo" />
       </div>
