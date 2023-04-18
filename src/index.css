@@ -24,6 +24,7 @@ body {
 #navbar.active {
   top: 5em;
   background: rgb(234 231 255);
+  transition: all ease-in-out 0.7s;
 }
 
 #abstract {

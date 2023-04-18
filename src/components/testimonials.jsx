@@ -12,10 +12,11 @@ const Testimonials = () => {
     <div className="pt-[124px]">
       <div className="flex flex-col gap-y-[72px]">
         <div className="text-center flex flex-col gap-y-[16px]">
-          <p data-aos="fade-up" id="real-time">TESTIMONIALS</p>
-          <p data-aos="fade-up" className="grift text-[#1A1A1A] text-[30px] md:text-[40px] leading-[48px] font-bold">
+          <div data-aos="fade-up"><p id="real-time">TESTIMONIALS</p></div>
+          <div data-aos="fade-up"> <p className="grift text-[#1A1A1A] text-[24px] md:text-[40px] leading-[48px] font-bold">
             What Our Customers are Saying
-          </p>
+          </p></div>
+         
         </div>
         <div data-aos="zoom-in" className="px-5 lg:px-[14em]">
           <Swiper

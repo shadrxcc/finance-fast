@@ -64,7 +64,7 @@ const Footer = () => {
               Sign up for our newsletter
             </p>
             <div className="flex items-center justify-center">
-              <div className="flex flex-col md:flex-row w-full md:w-auto pr-5 lg:px-5 gap-x-28 gap-y-3 justify-between md:border md:border-bgrey md:border-solid  rounded-[32px] md:px-2 py-1 md:bg-white">
+              <div className="flex flex-col md:flex-row w-full md:w-auto pr-5 lg:px-2 gap-x-28 gap-y-3 justify-between md:border md:border-bgrey md:border-solid  rounded-[32px] md:px-2 py-1 md:bg-white">
                 <div className="flex bg-white md:border-none border-bgrey border-solid border  md:bg-none md:rounded-none rounded-[32px] px-2 md:px-0 md:py-0 py-2 md:bg-none gap-x-[16px]">
                   <input
                     className="focus:outline-none bg-transparent"

@@ -1,10 +1,13 @@
-import React from "react";
+import React, { useEffect } from "react";
 import naija from "../assets/9jaflag.svg";
 import screens from '../assets/TEASE-OF-CONTINUATION.svg'
 import { gsap } from "gsap";
 import { CSSRulePlugin } from "gsap/CSSRulePlugin";
 
 const Hero = () => {
+  useEffect(() => {
+    gsap.from('.anim', { duration: 0.5, y: 50})
+  }, [])
   return (
     <div className="mt-[180px] md:mt-[200px]">
       <div className="text-center flex flex-col gap-y-[1.5em]">
@@ -58,4 +61,4 @@ export default Hero;
 
 // const rule = CSSRulePlugin.getRule()
 
-gsap.from('.anim', {opacity: 0, duration: 0.5, y: 50, stagger: 0.2})
+
