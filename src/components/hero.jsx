@@ -1,26 +1,28 @@
 import React from "react";
 import naija from "../assets/9jaflag.svg";
 import screens from '../assets/TEASE-OF-CONTINUATION.svg'
+import { gsap } from "gsap";
+import { CSSRulePlugin } from "gsap/CSSRulePlugin";
 
 const Hero = () => {
   return (
-    <div className="mt-[100px] md:mt-[150px]">
+    <div className="mt-[180px] md:mt-[200px]">
       <div className="text-center flex flex-col gap-y-[1.5em]">
         <h1
           id="hero-header"
-          className="font-bold max-w-[928px] m-auto text-[32px] lg:text-5xl leading-[35px] md:leading-[54px]"
+          className="font-bold anim max-w-[928px] m-auto text-[32px] lg:text-5xl leading-[35px] md:leading-[54px]"
         >
-          Simplify Your International
-          <br /> Transactions with <span id="abstract">One Platform</span>{" "}
+         <span className="header"> Simplify Your International
+          <br /> Transactions with</span> <span className="header" id="abstract">One Platform</span>{" "}
         </h1>
-        <p className="text-lg px-2.5 md:px-0 md:text-lg max-w-[640px] m-auto leading-6">
+        <p className="text-lg anim px-2.5 md:px-0 md:text-lg max-w-[640px] m-auto leading-6">
           Say Goodbye to the Hassles of Traditional Money Transfers. FinanceFast
           allows you effortlessly transfer money anywhere in the world with
           confidence and ease.
         </p>
       </div>
       <div className="flex items-center mt-[40px] justify-center">
-        <div className="flex flex-col md:flex-row w-full md:w-auto px-5 gap-x-28 gap-y-3 justify-between md:border md:border-bgrey md:border-solid  rounded-[32px] md:px-2 py-1 md:bg-white">
+        <div className="flex anim flex-col md:flex-row w-full md:w-auto px-5 gap-x-28 gap-y-3 justify-between md:border md:border-bgrey md:border-solid  rounded-[32px] md:px-2 py-1 md:bg-white">
           <div className="flex bg-white md:border-none border-bgrey border-solid border  md:bg-none md:rounded-none rounded-[32px] px-2 md:px-0 md:py-0 py-2 md:bg-none gap-x-[16px]">
             <span className="flex">
               <img src={naija} alt="nigerian-flag" />
@@ -53,3 +55,7 @@ const Hero = () => {
 };
 
 export default Hero;
+
+// const rule = CSSRulePlugin.getRule()
+
+gsap.from('.anim', {opacity: 0, duration: 0.5, y: 50, stagger: 0.2})

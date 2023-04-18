@@ -7,8 +7,8 @@ const Currency = () => {
     <>
       <div className="flex flex-col gap-y-[88px]">
         <div className="flex flex-col text-center gap-y-[16px] items-center">
-          <span id="real-time">REALTIME EXCHANGE RATE</span>
-          <p className="convert font-bold text-[30px] md:text-[40px] w-[10em] md:w-[622px] text-[#1A1A1A] leading-[35px] md:leading-[48px]">
+          <span data-aos="fade-up" id="real-time">REALTIME EXCHANGE RATE</span>
+          <p data-aos="fade-up" className="convert font-bold text-[30px] md:text-[40px] w-[10em] md:w-[622px] text-[#1A1A1A] leading-[35px] md:leading-[48px]">
             Effortlessly Convert Currency
           </p>
           <p className="text-[#3A3A3A] px-2 md:px-0 leading-[26px] md:w-[560px] text-base">
@@ -19,8 +19,8 @@ const Currency = () => {
         </div>
 
         <div className="flex flex-col p-[1em] gap-x-5 gap-y-[5em] md:flex-row items-center justify-evenly">
-          <div className="bg-pinkbg p-9 gap-y-[40px] flex flex-col rounded-3xl">
-            <img src={purpose} className=" m-auto" alt="" />
+          <div data-aos="fade-right" className="bg-pinkbg p-9 gap-y-[40px] flex flex-col rounded-3xl">
+            <img data-aos="zoom-in-up" src={purpose} className=" m-auto" alt="" />
             <span className="flex flex-col gap-y-[8px]">
               <p className="global-header text-[32px] leading-[33px] text-[#1A1A1A] font-bold">
                 Zero Hidden Fees
@@ -44,12 +44,12 @@ const Currency = () => {
               return (
                 <>
                   <div key={id} className="flex items-center gap-x-[24px]">
-                    <img src={info.currency} alt="currency" />
+                    <img data-aos="zoom-out" src={info.currency} alt="currency" />
                     <span>
-                      <p className="text-xl grift text-[#1A1A1A] font-bold leading-[21px]">
+                      <p data-aos="fade-left" className="text-xl grift text-[#1A1A1A] font-bold leading-[21px]">
                         {info.country}
                       </p>
-                      <p className="text-base text-[#3A3A3A] ">{info.fee}</p>
+                      <p data-aos="fade-left" className="text-base text-[#3A3A3A] ">{info.fee}</p>
                     </span>
                   </div>
                 </>
