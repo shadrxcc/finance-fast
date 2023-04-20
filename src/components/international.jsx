@@ -5,31 +5,76 @@ import acct from "../assets/iPhoneglobal-account.svg";
 
 const International = () => {
   return (
-    <div className="flex flex-col gap-y-[88px]">
+    <div
+      data-aos-duration="2000"
+      data-aos-delay="500"
+      data-aos="fade-up"
+      className="flex flex-col gap-y-[88px]"
+    >
       <div className="flex flex-col text-center gap-y-[16px] items-center">
-        <div data-aos="fade-up"><span className="anim" id="real-time">CROSS-BORDER TRANSACTIONS</span></div>
-        <div data-aos="fade-up"><p className="convert anim font-bold text-[24px] md:text-[40px] w-[10em] md:w-[622px] text-[#1A1A1A] leading-[35px] md:leading-[48px]">
-          Say Goodbye to International Payment Hassles
-        </p></div>
-        <div data-aos="fade-up"><p className="text-[#3A3A3A] anim px-2 md:px-0 leading-[26px] md:w-[560px] text-base">
-          Start your journey to hassle free Cross-Border Payments by downloading
-          the FastFinance app from your iOS of Android store.
-        </p></div>
-        
+        <div
+          data-aos-duration="750"
+          data-aos-easing="ease-in-out"
+          data-aos-delay="250"
+          data-aos="fade-up"
+        >
+          <span className="anim" id="real-time">
+            CROSS-BORDER TRANSACTIONS
+          </span>
+        </div>
+        <div
+          data-aos-duration="750"
+          data-aos-easing="ease-in-out"
+          data-aos-delay="500"
+          data-aos="fade-up"
+        >
+          <p className="convert anim font-bold text-[24px] md:text-[40px] w-[10em] md:w-[622px] text-[#1A1A1A] leading-[35px] md:leading-[48px]">
+            Say Goodbye to International Payment Hassles
+          </p>
+        </div>
+        <div
+          data-aos-duration="750"
+          data-aos-easing="ease-in-out"
+          data-aos-delay="1000"
+          data-aos="fade-up"
+        >
+          <p className="text-[#3A3A3A] anim px-2 md:px-0 leading-[26px] md:w-[560px] text-base">
+            Start your journey to hassle free Cross-Border Payments by
+            downloading the FastFinance app from your iOS of Android store.
+          </p>
+        </div>
       </div>
-      <div className="flex flex-col p-[1em] gap-[5em] md:flex-row items-center justify-evenly">
+      <div
+        data-aos-duration="1000"
+        data-aos-easing="ease-in-out"
+        data-aos-delay="1000"
+        data-aos="fade-up"
+        className="flex flex-col p-[1em] gap-[5em] md:flex-row items-center justify-evenly"
+      >
         <div className="flex flex-col gap-y-[28px]">
           <div className="flex flex-col gap-y-[28px]">
             {solution1.map((items, id) => {
               return (
-                <div data-aos="fade-right" className="flex items-center gap-x-[12px]" key={id}>
+                <div
+                  data-aos-duration="1000"
+                  data-aos-easing="ease-in-out"
+                  data-aos-delay="1000"
+                  data-aos="fade-right"
+                  className="flex items-center gap-x-[12px]"
+                  key={id}
+                >
                   <img src={items.icon} alt="x" />{" "}
                   <p className="text-[#3A3A3A] text-base">{items.item}</p>
                 </div>
               );
             })}
           </div>
-          <div>
+          <div
+            data-aos-duration="1000"
+            data-aos-easing="ease-in-out"
+            data-aos-delay="1000"
+            data-aos="fade-right"
+          >
             <span className="flex border border-trpborder bg-[#F9F9F9] py-[8px] px-[5px] rounded-3xl gap-x-[12px] w-[206px]">
               <img src={redx} alt="" />
               <p className="text-[#3A3A3A] text-base">Lack of transparency</p>
@@ -39,7 +84,14 @@ const International = () => {
             <div className="flex flex-col gap-y-[28px]">
               {solution2.map((items, id) => {
                 return (
-                  <div data-aos="fade-right" className="flex items-center gap-x-[12px]" key={id}>
+                  <div
+                    data-aos-duration="1000"
+                    data-aos-easing="ease-in-out"
+                    data-aos-delay="1000"
+                    data-aos="fade-right"
+                    className="flex items-center gap-x-[12px]"
+                    key={id}
+                  >
                     <img src={items.icon} alt="x" />{" "}
                     <p className="text-[#3A3A3A] text-base">{items.item}</p>
                   </div>
@@ -58,8 +110,15 @@ const International = () => {
         </div>
 
         <div className="bg-cardbg p-9 gap-y-[40px] flex flex-col rounded-3xl">
-          <div data-aos="zoom-in"><img src={acct} className="w-[20em] m-auto" alt="" /></div>
-          
+          <div
+            data-aos-duration="1000"
+            data-aos-easing="ease-in-out"
+            data-aos-delay="1000"
+            data-aos="zoom-in"
+          >
+            <img src={acct} className="w-[20em] m-auto" alt="" />
+          </div>
+
           <span className="flex flex-col gap-y-[8px]">
             <p className="global-header text-[24px] md:text-[32px] leading-[33px] text-[#1A1A1A] font-bold">
               Global accounts in minutes
@@ -77,4 +136,3 @@ const International = () => {
 };
 
 export default International;
-

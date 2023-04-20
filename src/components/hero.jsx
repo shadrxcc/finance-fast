@@ -1,13 +1,20 @@
-import React, { useEffect } from "react";
+import React, { useEffect, useRef } from "react";
 import naija from "../assets/9jaflag.svg";
-import screens from '../assets/TEASE-OF-CONTINUATION.svg'
-import { gsap } from "gsap";
-import { CSSRulePlugin } from "gsap/CSSRulePlugin";
+import screens from "../assets/TEASE-OF-CONTINUATION.svg";
+import { gsap, Power3 } from "gsap";
 
 const Hero = () => {
+  const textItem = useRef(null);
+
   useEffect(() => {
-    gsap.from('.anim', { duration: 0.5, y: 50})
-  }, [])
+    gsap.to(textItem, {
+      opacity: 0,
+      duration: 0.5,
+      y: 50,
+      ease: Power3.easeInOut,
+    });
+  }, []);
+
   return (
     <div className="mt-[180px] md:mt-[200px]">
       <div className="text-center flex flex-col gap-y-[1.5em]">
@@ -15,8 +22,14 @@ const Hero = () => {
           id="hero-header"
           className="font-bold anim max-w-[928px] m-auto text-[32px] lg:text-5xl leading-[35px] md:leading-[54px]"
         >
-         <span className="header"> Simplify Your International
-          <br /> Transactions with</span> <span className="header" id="abstract">One Platform</span>{" "}
+          <span className="header" ref={textItem}>
+            {" "}
+            Simplify Your International
+            <br /> Transactions with
+          </span>{" "}
+          <span className="header" id="abstract">
+            One Platform
+          </span>{" "}
         </h1>
         <p className="text-lg anim px-2.5 md:px-0 md:text-lg max-w-[640px] m-auto leading-6">
           Say Goodbye to the Hassles of Traditional Money Transfers. FinanceFast
@@ -45,13 +58,15 @@ const Hero = () => {
             />
           </div>
           <div>
-            <button id="download-btn" className="w-[100%]">Download Now</button>
+            <button id="download-btn" className="w-[100%]">
+              Download Now
+            </button>
           </div>
         </div>
       </div>
 
       <div className="mt-[148px]">
-<img src={screens} className='md:m-auto' alt="" />
+        <img src={screens} className="md:m-auto" alt="" />
       </div>
     </div>
   );
@@ -60,5 +75,3 @@ const Hero = () => {
 export default Hero;
 
 // const rule = CSSRulePlugin.getRule()
-
-
