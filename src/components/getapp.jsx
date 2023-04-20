@@ -27,7 +27,7 @@ const Getapp = () => {
           </div>
           <span className="flex flex-col md:flex-row gap-y-5 gap-x-[54px]">
             <img
-              data-aos-duration="1000"
+              data-aos-duration="500"
               data-aos-easing="ease-in-out"
               data-aos-delay="750"
               data-aos="fade-up"
@@ -35,7 +35,7 @@ const Getapp = () => {
               alt="playstore"
             />
             <img
-              data-aos-duration="1000"
+              data-aos-duration="500"
               data-aos-easing="ease-in-out"
               data-aos-delay="750"
               data-aos="fade-up"
@@ -46,7 +46,7 @@ const Getapp = () => {
         </div>
         <div className="flex flex-col items-center md:items-end md:flex-row">
           <img
-            data-aos-duration="1000"
+            data-aos-duration="500"
             data-aos-easing="ease-in-out"
             data-aos-delay="1500"
             data-aos="flip-right"
@@ -55,7 +55,7 @@ const Getapp = () => {
             alt=""
           />
           <img
-            data-aos-duration="1000"
+            data-aos-duration="800"
             data-aos-easing="ease-in-out"
             data-aos-delay="500"
             data-aos="zoom-in-left"

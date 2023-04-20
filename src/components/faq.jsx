@@ -10,7 +10,7 @@ const Faq = () => {
           <div
             data-aos-duration="750"
             data-aos-easing="ease-in-out"
-            data-aos-delay="250"
+            data-aos-delay="150"
             data-aos="fade-up"
           >
             {" "}
@@ -21,7 +21,7 @@ const Faq = () => {
             <div
               data-aos-duration="750"
               data-aos-easing="ease-in-out"
-              data-aos-delay="500"
+              data-aos-delay="200"
               data-aos="fade-up"
             >
               <p className="grift text-[#1A1A1A] text-[24px] md:text-[40px] leading-[48px] font-bold">
@@ -31,7 +31,7 @@ const Faq = () => {
             <div
               data-aos-duration="750"
               data-aos-easing="ease-in-out"
-              data-aos-delay="750"
+              data-aos-delay="250"
               data-aos="fade-up"
             >
               <p>Get the answers to your questions about FastFinance.</p>
@@ -42,6 +42,7 @@ const Faq = () => {
         <div
           data-aos="zoom-in"
           data-aos-easing="ease-in-out"
+          data-aos-delay="350"
           className="flex flex-col px-8 items-center"
         >
           <AccordionDropDown />

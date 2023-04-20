@@ -7,24 +7,48 @@ import "swiper/css/navigation";
 import { Pagination, Autoplay } from "swiper";
 
 const Testimonials = () => {
-  
   return (
-    <div data-aos-duration="1000"
-    data-aos-delay="2000" data-aos-easing="ease-in-out"  data-aos="fade-up" className="pt-[124px]">
+    <div
+      data-aos-duration="1000"
+      data-aos-delay="700"
+      data-aos-easing="ease-in-out"
+      data-aos="fade-up"
+      className="pt-[124px]"
+    >
       <div className="flex flex-col gap-y-[72px]">
         <div className="text-center flex flex-col gap-y-[16px]">
-          <div data-aos-duration="1500" data-aos-easing="ease-in-out" data-aos-delay="250" data-aos="fade-up"><p id="real-time">TESTIMONIALS</p></div>
-          <div data-aos-duration="1500" data-aos-easing="ease-in-out" data-aos-delay="750" data-aos="fade-up"> <p className="grift text-[#1A1A1A] text-[24px] md:text-[40px] leading-[48px] font-bold">
-            What Our Customers are Saying
-          </p></div>
-         
+          <div
+            data-aos-duration="1500"
+            data-aos-easing="ease-in-out"
+            data-aos-delay="200"
+            data-aos="fade-up"
+          >
+            <p id="real-time">TESTIMONIALS</p>
+          </div>
+          <div
+            data-aos-duration="1500"
+            data-aos-easing="ease-in-out"
+            data-aos-delay="250"
+            data-aos="fade-up"
+          >
+            {" "}
+            <p className="grift text-[#1A1A1A] text-[24px] md:text-[40px] leading-[48px] font-bold">
+              What Our Customers are Saying
+            </p>
+          </div>
         </div>
-        <div data-aos-duration="750" data-aos-easing="ease-in-out" data-aos-delay="750" data-aos="zoom-in" className="px-5 lg:px-[14em]">
+        <div
+          data-aos-duration="750"
+          data-aos-easing="ease-in-out"
+          data-aos-delay="750"
+          data-aos="zoom-in"
+          className="px-5 lg:px-[14em]"
+        >
           <Swiper
-          autoplay={{
-            delay: 2500,
-            disableOnInteraction: false,
-          }}
+            autoplay={{
+              delay: 2500,
+              disableOnInteraction: false,
+            }}
             slidesPerView={1}
             spaceBetween={50}
             pagination={{
@@ -33,7 +57,6 @@ const Testimonials = () => {
             loop={false}
             modules={[Pagination, Autoplay]}
             className="mySwiper"
-           
           >
             {reviews.map((comment, id) => {
               return (

@@ -16,7 +16,7 @@ const Breezepayments = () => {
           <p
             data-aos-easing="ease-in-out"
             data-aos-duration="500"
-            data-aos-delay="500"
+            data-aos-delay="150"
             data-aos="fade-up"
             className="grift text-[24px] lg:text-[40px] leading-[35px] lg:leading-[48px] md:w-[729px] text-white"
           >
@@ -28,7 +28,7 @@ const Breezepayments = () => {
                 <div
                   data-aos-duration="1000"
                   data-aos-easing="ease-in-out"
-                  data-aos-delay="750"
+                  data-aos-delay="200"
                   data-aos="fade-up"
                   className="flex gap-x-[12px] text-white"
                 >
@@ -45,7 +45,7 @@ const Breezepayments = () => {
           <img
             data-aos-easing="ease-in-out"
             data-aos-duration="1000"
-            data-aos-delay="1500"
+            data-aos-delay="300"
             data-aos="flip-down"
             src={cta}
             alt="cta"
